@@ -2,7 +2,6 @@
 import yargs from 'yargs';
 import { hideBin } from 'yargs/helpers';
 import { generate } from 'csv';
-import fs from 'fs';
 
 yargs(hideBin(process.argv))
   .command(
