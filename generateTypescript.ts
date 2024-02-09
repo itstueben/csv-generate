@@ -14,7 +14,6 @@ yargs(hideBin(process.argv))
             });
         },
         (args) => {
-            // @ts-ignore
             generate({
                 columns: ['int', () => 'mydata'],
                 objectMode: true,
